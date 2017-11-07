@@ -1,0 +1,46 @@
+.gameBoard td {
+    width: 45px;
+    height:45px;
+    text-align: center;
+}
+
+.mark {
+    background: rgb(196, 227, 233);
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: auto;    
+}
+
+button {
+    margin: 10px;
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    background: rgb(196, 227, 233);
+    border: 0;
+}
+
+button:hover {
+    background: rgb(134, 192, 184);
+}
+
+
+.gameOver {
+    position: absolute;
+    right: 100px;
+    bottom: 300px;
+    font-size: 50px;
+}
+
+.gameOver2 {
+    position: absolute;
+    left: 100px;
+    bottom: 300px;
+    font-size: 50px;
+}

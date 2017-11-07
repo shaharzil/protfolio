@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 244, 246);
+    text-align: center;
+}
+
+.boardCell {
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(160, 160, 160);
+    
+}
+
+.clickedCorect {
+    background-color: #cbfac2
+}
+
+.gameTable {
+    margin: auto;
+}
