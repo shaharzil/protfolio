@@ -604,3 +604,8 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
+
+
+.fa-comment:before {
+  color: white;
+}
