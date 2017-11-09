@@ -7,7 +7,7 @@ var gProjs = [
      in which the player(the bunny) pushes carrots or crates around in a warehouse,\
       trying to get them to storage locations.",
     publishedAt: 1448693940000,
-    link:"projs/sprint1/Sokoban/index.html",
+    link:"projs/sokoban/index.html",
     labels: ["Matrixes", "keyboard events"],
   },
   {
@@ -18,7 +18,7 @@ var gProjs = [
     The objective of the game is to clear a rectangular board containing hidden mines or bombs without detonating any of them,\
     with help from clues about the number of neighboring mines in each field.",
     publishedAt: 1448693940000,
-    link:"projs/sprint1/minesweeper/index.html",    
+    link:"projs/minesweeper/index.html",    
     labels: ["Matrixes", "keyboard events"],
   },
   {
