@@ -46,7 +46,6 @@ var gProjs = [
     desc: "",
     publishedAt: 1448693940000,
     link:"projs/Chess/index.html",    
-    labels: ["Matrixes", "keyboard events"],
   },
   {
     id: "balloonPop",
@@ -55,7 +54,22 @@ var gProjs = [
     desc: "",
     publishedAt: 1448693940000,
     link:"projs/balloon-pop/index.html",    
-    labels: ["Matrixes", "keyboard events"],
+  },
+  {
+    id: "bookShop",
+    name: "Book shop",
+    title: "read some books!",
+    desc: "",
+    publishedAt: 1448693940000,
+    link:"projs/book-shop/index.html",    
+  },
+  {
+    id: "guessMe",
+    name: "Guess me",
+    title: "Think of Someone!",
+    desc: "",
+    publishedAt: 1448693940000,
+    link:"projs/guess-me/index.html",    
   },
 ]
 
@@ -113,7 +127,7 @@ function renderPopup(projs) {
                   <li>Date: January 2017</li>\
                   <li>Client: Threads</li>\
                   <li>Category: Illustration</li>\
-                  <li><a href="'+projs[i].link+'">Go to the game!</a></li>\
+                  <li><a href="'+projs[i].link+'">Visit the project!</a></li>\
                 </ul>\
                 <button class="btn btn-primary" data-dismiss="modal" type="button">\
                     <i class="fa fa-times"></i>\

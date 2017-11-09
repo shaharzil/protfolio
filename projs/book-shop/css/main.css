@@ -1,0 +1,65 @@
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.inlineP {
+    display: inline;
+}
+
+.fa-thumbs-up:hover, .fa-thumbs-down:hover {
+    color: palevioletred;
+}
+
+.booksContainer {
+    position: absolute;
+    right: 200px;
+    top: 150px;  
+}
+
+.booksContainer > p {
+    font-size: 1.2em;
+    text-decoration: underline;
+    cursor: pointer;    
+}
+
+tbody > tr:hover {
+    background-color: rgba(253, 253, 253, 0.2);
+}
+
+thead {
+    font-weight: bold;
+}
+
+td > button {
+    border: none;
+    background: none;
+    color: currentColor;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.saveChanges > button {
+    background-color: palevioletred;
+    border: none;
+}
+
+.saveChanges > button:hover {
+    background-color: rgb(224, 85, 134);
+    border: none;
+}
+
+button:focus {
+  outline: none;
+}
