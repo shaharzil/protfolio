@@ -1,0 +1,17 @@
+.posts-nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: Lato-Bold;
+    color: #818181;
+    font-size: 18px;
+    border-top: 1px solid #e1e0e0;
+}
+
+.posts-nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 125px;
+}

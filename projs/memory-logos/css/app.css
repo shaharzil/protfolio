@@ -1,0 +1,109 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header {
+    background-color: lightblue;
+    padding: 20px;
+    border-bottom: 10px solid darkcyan;
+    color:darkcyan;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    display: none;
+}
+
+.container {
+    width: 35vw;
+    height: 35vw;
+    position: relative;
+    margin: 10px;
+    perspective: 800px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+}
+
+.card.flipped {
+        transform: rotateY( 180deg );
+}
+
+.card img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140px;
+    backface-visibility: hidden;
+    align-self: flex-start;
+}
+
+.card .back {
+    transform: rotateY( 180deg );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.back img { 
+    position: relative;
+    width: 70%;
+    align-self: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 500px) {
+    .container {
+        width: 20vw;
+        height: 20vw;    
+    }
+}
+
+@media (min-width: 850px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .container {
+        width: 12vw;
+        height: 12vw;    
+    }
+    .header img {
+        display: block;
+    }
+    .header {
+        font-size: 2em;
+        width: 100vw;
+    }
+    .nav {
+        flex-direction: column;
+        width: 10vw;
+        order: 1;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+    .board {
+        width: 80vw;
+    }
+}

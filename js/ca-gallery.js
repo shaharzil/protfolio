@@ -1,5 +1,21 @@
 var gProjs = [
   {
+    id: "misterBlogger",
+    name: "Mister blogger",
+    title: "read my blog!",
+    desc: "",
+    publishedAt: 1448693940000,
+    link:"projs/psd-to-html/index.html",    
+  },
+  {
+    id: "bookShop",
+    name: "Book shop",
+    title: "read some books!",
+    desc: "",
+    publishedAt: 1448693940000,
+    link:"projs/book-shop/index.html",    
+  },
+  {
     id: "sokoban",
     name: "Sokoban",
     title: "Better push those carrots",
@@ -56,14 +72,6 @@ var gProjs = [
     link:"projs/balloon-pop/index.html",    
   },
   {
-    id: "bookShop",
-    name: "Book shop",
-    title: "read some books!",
-    desc: "",
-    publishedAt: 1448693940000,
-    link:"projs/book-shop/index.html",    
-  },
-  {
     id: "guessMe",
     name: "Guess me",
     title: "Think of Someone!",
@@ -71,6 +79,15 @@ var gProjs = [
     publishedAt: 1448693940000,
     link:"projs/guess-me/index.html",    
   },
+  {
+    id: "memoryLogos",
+    name: "Memory logos",
+    title: "come play some cards!",
+    desc: "",
+    publishedAt: 1448693940000,
+    link:"projs/memory-logos/index.html",    
+  },
+
 ]
 
 function initPage() {

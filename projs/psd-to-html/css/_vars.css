@@ -1,0 +1,5 @@
+:root {
+    --container-width: 1500px;
+    --inner-container-width: 983px;
+    --side-margin: calc(var(--container-width) /2 - var(--inner-container-width) /2)
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib\normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>blogin</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-menu">
+            <div class="nav-container">
+                <input type="checkbox" id="nav-checkbox">
+                <label for="nav-checkbox" class="main-nav-icon">
+                    <span ></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <h2 class="logo">
+                    Blogin
+                    <span>.</span>
+                </h2>
+                <ul class="nav-main">
+                    <li>Journal</li>
+                    <li>About</li>
+                    <li>Work</li>
+                    <li>Contact</li>
+                </ul>
+                <ul class="nav-modal">
+                    <li>home</li>
+                    <li>About</li>
+                    <li>products</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+        <section class="inner-container">
+
+            <div class="container-item">
+                <div class="item-img">
+                    <img src="img/img1.jpg">
+                </div>
+                <div>
+                    <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    </p>
+                    <button onclick="showModal()">Continue Reading</button>
+                </div>
+            </div>
+            <div class="container-item">
+                <div class="item-img">
+                    <img src="img/img2.jpg">
+                </div>
+                <div>
+                    <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    </p>
+                    <button onclick="showModal()">Continue Reading</button>
+                </div>
+            </div>
+            <div class="container-item">
+                <div class="item-img">
+                    <img src="img/img3.jpg">
+                </div>
+                <div>
+                    <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    </p>
+                    <button onclick="showModal()">Continue Reading</button>
+                </div>
+            </div>
+
+            <div class="posts-nav">
+                <div>
+                    <img src="img/prev.jpg" />
+                    <p>previus</p>
+                </div>
+                <div>
+                    <p>next</p>
+                    <img src="img/next.jpg" />
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div>
+                <h2 class="logo">
+                    Blogin
+                    <span>.</span>
+                </h2>
+                <p>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</p>
+                <div class="social-icons">
+                    <div class="fb-logo">
+                        <img src="img\fb.png" />
+                    </div>
+                    <div class="twitter-logo">
+                        <img src="img\twitter.png" />
+                    </div>
+                    <div class="be-logo">
+                        <img src="img\be.png" />
+                    </div>
+                    <div class="ball-logo">
+                        <img src="img\ball.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal-container">
+            <div class="modal-box">
+                <div class="inner-modal">
+                    <h1>
+                        Join us to get access to the latest stories!
+                    </h1>
+                    <input placeholder="Enter Your Mail">
+                    <div>
+                        <button class="cencel" onclick="cencelModal()">Cencel</button>
+                        <button class="submit">Submit</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
